@@ -63,5 +63,6 @@ public class PlayerController : MonoBehaviour
         Vector3 currentPosition = transform.position;
         currentPosition.x += movementPlayerInput * speed * Time.deltaTime;
         transform.position = currentPosition;
+        Debug.Log("updating");
     }
 }
